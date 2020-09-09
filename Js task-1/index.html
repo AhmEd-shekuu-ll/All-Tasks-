@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task 1</title>
+</head>
+<body>
+    <input type="number" id="num">
+    <button id="convert" onclick="converter()">Convert to seconds</button>
+    <h1 id="result">Result:</h1>
+    <script>
+        function converter() {
+            var n1= parseFloat(document.getElementById('num').value),
+                n2= 60;  
+
+                printResult(sum(n1, n2));        
+        }
+
+        function sum(n1, n2) {
+           return n1 * n2;   
+        }
+
+        function printResult(result) {
+            document.getElementById('result').innerHTML ='<p style="color: green">' + result + 's' + '</p>';
+        }
+        
+    </script>
+</body>
+</html>
