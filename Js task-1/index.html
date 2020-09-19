@@ -4,11 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>task 1</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <input type="number" id="num">
-    <button id="convert" onclick="converter()">Convert to seconds</button>
-    <h1 id="result">Result:</h1>
+    <section class="header">
+        <div class="heading"> 
+            <a href="#" class="logo">Js-1 tasks</a>
+        </div>
+        <div class="input">
+            <input type="number" id="num" placeholder="input number of minutes to convert">
+            <a href="#" id="convert" onclick="converter()">Convert to seconds</a><br><br>
+            <h1>Result:<span id="result">0</span></h1>
+        </div>
+        <div class="next">
+            <a href="index-1.html" class="click" target="_blank" >Next..</a>
+        </div>  
+    </section>
+ 
     <script>
         function converter() {
             var n1= parseFloat(document.getElementById('num').value),

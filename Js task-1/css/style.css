@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}  
+.heading{
+    height: 100px;
+    text-align: center;
+} 
+.logo{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 60px;
+    color: rgb(196, 140, 72);
+}
+a{
+    text-decoration: none;
+}
+.header{
+    height: 200 px;
+
+}
+.input{
+    padding-left: 20px;
+}
+#num{
+    width: 230px;
+    padding-left: 10px;
+    height: 40px;
+}
+#convert{
+    background-color:rgb(196, 140, 72) ;
+    border-radius: 50px; 
+    border: hidden;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+}
+#Total{
+    background-color:rgb(196, 140, 72) ;
+    border-radius: 50px; 
+    border: hidden;
+    padding: 10px 20px;
+    color: rgb(255, 255, 255);
+}
+.next{
+    padding: 50px 0 0 20px;
+    
+}
+.click{
+    border:  solid 1px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: seashell;
+    padding: 15px 30px;
+    font-size: 20px;
+    background-color:rgb(196, 140, 72) ;
+}
